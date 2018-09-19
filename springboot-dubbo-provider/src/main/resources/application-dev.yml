@@ -1,0 +1,24 @@
+# mybatis配置
+mybatis:
+  mapper-locations: classpath:Mapper/*.xml
+  type-aliases-package: com.fhh.Entity
+# 数据库连接配置
+#dubbo配置
+spring:
+  dubbo:
+    application:
+      name: springboot-dubbo-provider
+    registry:
+      address: zookeeper://127.0.0.1:2181
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: fhh
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  # redis配置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: redis
+server:
+  port: 8082
