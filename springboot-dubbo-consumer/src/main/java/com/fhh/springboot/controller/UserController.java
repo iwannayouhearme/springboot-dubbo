@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 功能描述：（）
- * Created by biubiubiu小浩 on 2018-09-16 15:41
+ * Created by biubiubiu小浩 on 2018-09-16 15:4
  */
 @RestController
 public class UserController {
